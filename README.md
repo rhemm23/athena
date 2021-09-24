@@ -22,7 +22,7 @@ And the corresponding config.ini
 ```
 Port=8080
 ```
-If you wanted the file to be custom.ini, then specify the file name. Config files must end with 'ini'.
+If you wanted a specific file name, then specify the file name in the config attribute constructor. Config file names must end with 'ini'.
 
 ```csharp
 [Config(FileName = "custom.ini")]
