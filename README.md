@@ -27,3 +27,9 @@ If you wanted the file to be custom.ini, then specify the file name. Config file
 ```csharp
 [Config(FileName = "custom.ini")]
 ```
+Finally to load the config classes with values, call the LoadAllConfigs method in ConfigManager.
+```csharp
+public static void Main() {
+  ConfigManager.LoadAllConfigs();
+}
+```
