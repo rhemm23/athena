@@ -6,13 +6,13 @@ namespace AthenaTest {
   class Program {
 
     static void Main(string[] args) {
-      Athena.ConfigManager.LoadAllConfigs();
+      Athena.ConfigurationManager.LoadAllConfigs();
       Console.WriteLine(Config.Port);
       Console.ReadKey();
     }
   }
 
-  [Config]
+  [Configuration]
   public static class Config {
 
     public static decimal Port { get; set; }
