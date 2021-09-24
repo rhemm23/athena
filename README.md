@@ -25,11 +25,11 @@ Port=8080
 If you wanted a specific file name, then specify the file name in the configuration attribute constructor. Config file names must end with 'ini'.
 
 ```csharp
-[Config(FileName = "custom.ini")]
+[Configuration(FileName = "custom.ini")]
 ```
 Finally to load the configuration classes with values, call the LoadAllConfigs method in ConfigurationManager.
 ```csharp
 public static void Main() {
-  ConfigManager.LoadAllConfigs();
+  ConfigurationManager.LoadAllConfigs();
 }
 ```
