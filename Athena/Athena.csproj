@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ryan Hemmila</Authors>
+    <RepositoryUrl>https://github.com/rhemm23/athena</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>AthenaConfiguration</PackageId>
   </PropertyGroup>
 
 </Project>
