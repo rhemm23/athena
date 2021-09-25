@@ -57,7 +57,7 @@ namespace Athena {
         using (StreamReader streamReader = new StreamReader(stream)) {
           string line;
           while ((line = streamReader.ReadLine()) != null) {
-            string[] keyValue = line.Split('=');
+            string[] keyValue = line.Split(new char[] { '=' }, 2);
             if (keyValue.Length != 2) {
               throw new InvalidConfigurationEntryException(line);
             } else {

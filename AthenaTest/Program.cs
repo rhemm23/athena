@@ -16,7 +16,7 @@ namespace AthenaTest {
   [Configuration(FileName = "custom_config.ini")]
   public static class Config {
 
-    public static decimal Port { get; set; }
+    public static string Port { get; set; }
 
   }
 }
